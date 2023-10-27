@@ -1,0 +1,43 @@
+html * {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.title {
+	width: 75%;
+	margin-left: 12.5%;
+	text-align: center;
+}
+
+.category {
+	width: 90%;
+	margin-left: 5%;
+	text-align: left;
+}
+
+.text-body {
+	width: 90%;
+	margin-left: 5%;
+	text-align: justify;
+}
+
+.reference {
+	text-align: justify;
+	font-size: 24px;
+}
+ul,
+li {
+	margin-bottom: 1vh;
+}

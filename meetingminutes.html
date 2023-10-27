@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Meeting Minutes</title>
+		<link rel="stylesheet" type="text/css" href="css/navbar.css" />
+		<link rel="stylesheet" type="text/css" href="css/text.css" />
+		<link rel="stylesheet" type="text/css" href="css/meetingminutes.css" />
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="index.html">Home</a>
+			<a href="introduction.html">Introduction</a>
+			<a href="opportunities.html">Opportunities</a>
+			<a href="risks.html">Risks</a>
+			<a href="choices.html">Choices</a>
+			<a class="active" href="meetingminutes.html">Meeting Minutes</a>
+			<a href="reference.html">Reference</a>
+		</div>
+
+		<div style="margin-top: 5vh">
+			<h1 class="title">Meeting Minutes</h1>
+
+			<div class="box">
+				<p>Select the meeting</p>
+				<select id="meeting-select">
+					<option value="0">Meeting 1</option>
+					<option value="1">Meeting 2</option>
+					<option value="2">Meeting 3</option>
+					<option value="3">Meeting 4</option>
+				</select>
+
+				<p>Meeting prepared by: Camille Joyce Carreon</p>
+				<p>Topic:</p>
+				<ul>
+					<li id="circulation"></li>
+				</ul>
+			</div>
+
+			<h2 class="title">Team Proposal Introductory</h2>
+
+			<div class="info-container">
+				<div id="a1" class="a1">Client/Project</div>
+				<div id="a2" class="a2">Team Proposal – Topic and Website</div>
+
+				<div id="b1" class="b1">Purpose:</div>
+				<div id="b2" class="b2">INSERT</div>
+
+				<div id="c1" class="c1">Meeting called by:</div>
+				<div id="c2" class="c2">Camille Joyce Carreon</div>
+
+				<div id="d1" class="d1">Location: WZ601</div>
+				<div id="d2" class="d2">Date: INSERT</div>
+				<div id="d3" class="d3">Time: 12pm-2pm</div>
+
+				<div id="e1" class="e1">QA: Team Members</div>
+				<div id="e2" class="e2">Version: INSERT</div>
+				<div id="e3" class="e3">Minutes Reviewed By: Team Leader</div>
+			</div>
+
+			<h1></h1>
+
+			<table class="table-custom" id="attendees-table">
+				<thead>
+					<tr>
+						<th colspan="2">Meeting Attendees</th>
+					</tr>
+					<tr>
+						<th>
+							<i><u>Names</u></i>
+						</th>
+						<th>
+							<i><u>Representing</u></i>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Camille Joyce Carreon</td>
+						<td>Project Leader.</td>
+					</tr>
+					<tr>
+						<td>Harry Hor</td>
+						<td>Website Editor.</td>
+					</tr>
+					<tr>
+						<td>Seth Elijah Adams</td>
+						<td>Project Manager.</td>
+					</tr>
+					<tr>
+						<td>Nicolas Limberger Ferreira</td>
+						<td>Website Developer.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<h1></h1>
+
+			<h1></h1>
+
+			<table class="table-custom">
+				<thead>
+					<tr>
+						<th colspan="4">Agenda Item Description</th>
+					</tr>
+					<tr>
+						<th>
+							<i><u>#</u></i>
+						</th>
+						<th>
+							<i><u>Item</u></i>
+						</th>
+						<th>
+							<i><u>Owner</u></i>
+						</th>
+						<th>
+							<i><u>Time Allotted</u></i>
+						</th>
+					</tr>
+				</thead>
+				<tbody id="agenda-table"></tbody>
+			</table>
+
+			<h1></h1>
+
+			<table class="table-custom">
+				<thead>
+					<tr>
+						<th colspan="2">Discussions and Decisions</th>
+					</tr>
+					<tr>
+						<th>
+							<i><u>#</u></i>
+						</th>
+						<th>
+							<i><u>Topic</u></i>
+						</th>
+					</tr>
+				</thead>
+				<tbody id="discussion-table"></tbody>
+			</table>
+
+			<h1></h1>
+
+			<table class="table-custom">
+				<thead>
+					<tr>
+						<th colspan="4">Summary of Action Items</th>
+					</tr>
+					<tr>
+						<th>
+							<i><u>#</u></i>
+						</th>
+						<th>
+							<i><u>Action Item Description</u></i>
+						</th>
+						<th>
+							<i><u>Owner</u></i>
+						</th>
+						<th>
+							<i><u>Expected Completion Date</u></i>
+						</th>
+					</tr>
+				</thead>
+				<tbody id="summary-table"></tbody>
+			</table>
+
+			<h1></h1>
+
+			<table class="table-custom">
+				<thead>
+					<tr>
+						<th colspan="2">Next Meeting</th>
+					</tr>
+					<tr>
+						<th id="next-date">
+							<i><u>Date: 00/00/0000</u></i>
+						</th>
+						<th>
+							<i><u>Time: 12pm-2pm</u></i>
+						</th>
+					</tr>
+				</thead>
+				<tr>
+					<td colspan="2">
+						<u><i>Discussion point for next meeting:</i></u>
+					</td>
+				</tr>
+				<tbody id="next-table"></tbody>
+			</table>
+
+			<script src="./js/meetingminutes.js"></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+:root {
+	--size1: 21vw;
+	--size2: 62vw;
+	--size3: 27.5vw;
+}
+
+/* Select */
+
+.hidden {
+	display: none;
+}
+
+/* Info Grid */
+
+.a1 {
+	grid-area: a1;
+	width: var(--size1);
+}
+.a2 {
+	grid-area: a2;
+	width: var(--size2);
+}
+.b1 {
+	grid-area: b1;
+	width: var(--size1);
+}
+.b2 {
+	grid-area: b2;
+	width: var(--size2);
+}
+.c1 {
+	grid-area: c1;
+	width: var(--size1);
+}
+.c2 {
+	grid-area: c2;
+	width: var(--size2);
+}
+.d1 {
+	grid-area: d1;
+	width: var(--size3);
+}
+.d2 {
+	grid-area: d2;
+	width: var(--size3);
+}
+.d3 {
+	grid-area: d3;
+	width: var(--size3);
+}
+.e1 {
+	grid-area: e1;
+	width: var(--size3);
+}
+.e2 {
+	grid-area: e2;
+	width: var(--size3);
+}
+.e3 {
+	grid-area: e3;
+	width: var(--size3);
+}
+
+.info-container {
+	display: grid;
+	grid-template-areas:
+		"a1 a2 a2 a2 a2 a2"
+		"b1 b2 b2 b2 b2 b2"
+		"c1 c2 c2 c2 c2 c2"
+		"d1 d1 d2 d2 d3 d3"
+		"e1 e1 e2 e2 e3 e3";
+	gap: 0.5vw;
+	background-color: #020202;
+	padding: 0.5vw;
+	width: 83.5vw;
+	margin-left: 7.5vw;
+}
+
+.info-container > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+/* Attendees */
+
+.table-custom {
+	background-color: #020202;
+	padding: 1vh 0;
+	width: 75%;
+	margin-left: 12.5%;
+	font-size: 20px;
+}
+
+table,
+td {
+	border: 1px solid #333;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+thead,
+tfoot {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Other */
+
+.box {
+	width: 30%;
+	margin-left: 35%;
+	text-align: center;
+}
